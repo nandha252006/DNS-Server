@@ -1,0 +1,17 @@
+$TTL 2d
+$ORIGIN 1.17.172.in-addr.arpa.
+
+@                  IN        SOA         ns.nandha.dev.    info.nandha.dev. (
+                                                           2026021301
+							   12h 
+							   15m
+							   5w
+							   2h
+							   )
+
+                   IN        NS         ns.nandha.dev.
+
+4		   IN        PTR        ns.nandha.dev.
+5		   IN        PTR        truenas.nandha.dev.
+21		   IN        PTR        pb.nandha.dev.
+15		   IN        PTR        gns3.nandha.dev.
