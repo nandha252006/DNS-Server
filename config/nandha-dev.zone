@@ -1,0 +1,19 @@
+$TTL 2d
+$ORIGIN  nandha.dev.
+
+@                IN          SOA             ns.nandha.dev.    info.nandha.dev. (
+                                                               2026021301
+							       12h
+							       15m
+							       3w
+							       2h
+							       )
+
+
+                 IN          NS             ns.nandha.dev. 
+
+ns               IN          A              172.17.1.4
+
+truenas          IN          A              172.17.1.5
+gns3             IN          A              172.17.1.15
+pb               IN          A              172.17.1.21
